@@ -1,0 +1,27 @@
+name: Funplugin
+version: ${project.version}
+main: com.parpar8090.funplugin.FunPlugin
+api-version: 1.14
+authors: [ parpar8090 ]
+description: Fun plugin for my test server
+website: parpar8090.com
+depend:
+  - ProtocolLib
+
+commands:
+  toggledirtportal:
+    description: Toggles The Dirt Portal Feature.
+    usage: /<command>
+    premission: funplugin.dirtportal
+    permission-message: You don't have permissions
+  dismount:
+    description: Toggles if players can dismount entities.
+    usage: /<command>
+    premission: funplugin.dismount
+    permission-message: You don't have permissions
+
+permissions:
+  funplugin.dirtportal:
+    default: op
+  funplugin.dismount:
+    default: op
