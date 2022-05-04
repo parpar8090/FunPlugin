@@ -1,5 +1,6 @@
 # FunPlugin
 **Note:** This is an unfinished project, any bugs can be reported however they might not be patched.
+
 A Spigot plugin with weird ideas in it.
 
 ## Features:
