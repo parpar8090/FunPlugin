@@ -5,4 +5,5 @@ A Spigot plugin with weird ideas in it.
 
 ## Features:
 - End portals become farmland when using a hoe.
-- Get entities into a bucket.
+- Clicking entities with a bucket will "put" the entity into the bucket.
+- Clicking entities will mount the player on them.
